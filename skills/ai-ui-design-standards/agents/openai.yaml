@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI UI Design Standards"
+  short_description: "Apply seven AI UI design quality rules"
+  default_prompt: "Use $ai-ui-design-standards to design or review a UI screen with clear spacing, hierarchy, constraints, responsiveness, density, and touch targets."

@@ -1,0 +1,11 @@
+﻿# OS/editor junk
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Do not sync local Codex runtime/cache data here
+.codex/
+plugins/
+cache/
+skills/.system/
