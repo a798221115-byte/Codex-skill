@@ -18,6 +18,19 @@ codex-skills/
       agents/
       references/
       scripts/
+    impeccable/
+      SKILL.md
+      agents/
+      reference/
+      scripts/
+    qiaomu-anything-to-notebooklm/
+      SKILL.md
+      feishu-read-mcp/
+      scripts/
+    ui-ux-pro-max/
+      SKILL.md
+      data
+      scripts
   install.ps1
 ```
 
