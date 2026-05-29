@@ -1,0 +1,7 @@
+interface:
+  display_name: "知识库资料收集"
+  short_description: "把链接文章、网页和X资料加工成可复用知识库条目"
+  default_prompt: "Use $knowledge-base-collection to collect this article into my knowledge base and extract reusable prompts, skills, MCP, and CLI references."
+
+policy:
+  allow_implicit_invocation: true
