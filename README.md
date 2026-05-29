@@ -23,6 +23,9 @@ codex-skills/
       agents/
       reference/
       scripts/
+    knowledge-base-collection/
+      SKILL.md
+      agents/openai.yaml
     qiaomu-anything-to-notebooklm/
       SKILL.md
       feishu-read-mcp/
