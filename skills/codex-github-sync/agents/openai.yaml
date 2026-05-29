@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex GitHub 同步"
+  short_description: "通过GitHub同步Codex skills和AGENTS.md"
+  default_prompt: "Use $codex-github-sync to compare, back up, or restore my Codex skills and AGENTS.md through GitHub."
+
+policy:
+  allow_implicit_invocation: true
