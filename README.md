@@ -11,6 +11,10 @@ codex-skills/
       SKILL.md
       agents/openai.yaml
       references/source-summary.md
+    codex-github-sync/
+      SKILL.md
+      agents/openai.yaml
+      scripts/codex-sync.ps1
     dreamina-cli/
       SKILL.md
     hatch-pet/
