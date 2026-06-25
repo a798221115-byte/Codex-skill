@@ -1,0 +1,4 @@
+interface:
+  display_name: "PM Render Retouch"
+  short_description: "Clean, upscale, and guide PM render fusion."
+  default_prompt: "Use $pm-render-retouch to clean a site photo, upscale the selected result, and guide product fusion handoff."

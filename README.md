@@ -13,11 +13,19 @@ codex-skills/
       references/source-summary.md
     dreamina-cli/
       SKILL.md
+    guizang-ppt-skill/
+      SKILL.md
+      assets/
+      references/
+      scripts/
     hatch-pet/
       SKILL.md
       agents/
       references/
       scripts/
+    pm-render-retouch/
+      SKILL.md
+      agents/openai.yaml
   install.ps1
 ```
 
