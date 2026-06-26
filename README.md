@@ -17,6 +17,11 @@ codex-skills/
       scripts/codex-sync.ps1
     dreamina-cli/
       SKILL.md
+    guizang-ppt-skill/
+      SKILL.md
+      assets/
+      references/
+      scripts/
     hatch-pet/
       SKILL.md
       agents/
@@ -34,6 +39,9 @@ codex-skills/
       SKILL.md
       feishu-read-mcp/
       scripts/
+    pm-render-retouch/
+      SKILL.md
+      agents/openai.yaml
     ui-ux-pro-max/
       SKILL.md
       data
