@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频号图书视频生产·历史赛道"
+  short_description: "含文皮皮原创检测的历史图书视频生产、发布与复盘"
+  default_prompt: "Use $produce-wechat-book-video-history to produce a history-focused WeChat Channels book video from an approved final script or through the evidence-backed derivative workflow with the mandatory Wenpipi originality gate."

@@ -1,0 +1,41 @@
+{
+  "id": "history-scholar-male-locked-v1",
+  "label": "历史学者型合成男声",
+  "variant": "male",
+  "status": "history_track_safe_default",
+  "createdAt": "2026-08-12",
+  "sourcePreset": "male-podcast-locked-v2",
+  "identityDisclosure": "原创合成角色音色，非王立群本人，不得用于冒充、暗示授权或制造本人发言",
+  "forbiddenIdentityReference": "王立群.mp3",
+  "engine": "VoxCPM2",
+  "model": "openbmb/VoxCPM2",
+  "referenceMode": "reference_only",
+  "referenceAudio": "male-podcast-locked-v2-reference.wav",
+  "referenceSha256": "7FF5BA83A8F8458AA1489B9F8318A9E0A1D5111460F8BC2E11E210570F17CA9C",
+  "goldenMaster": "male-podcast-locked-v2-full.wav",
+  "goldenMasterSha256": "B50E5BD805404730D7FD0316DFC2249AA386424BE35AF673B9C938D22DD80635",
+  "generation": {
+    "cfgValue": 2.0,
+    "inferenceTimesteps": 20,
+    "seed": 42,
+    "seedPolicy": "fixed_42_for_every_segment",
+    "normalize": false,
+    "denoise": false,
+    "retryBadcase": false
+  },
+  "delivery": {
+    "speechSpeed": 0.96,
+    "timeStretchMethod": "ffmpeg-atempo-pitch-preserving",
+    "bookNamePauseSeconds": 1.6,
+    "ordinaryPauseSeconds": [0.55, 0.65],
+    "finalPauseSeconds": 0.35,
+    "prosodyProfile": "measured-history-lecture",
+    "styleTraits": ["沉稳", "清晰", "克制", "学者型", "历史讲述感"]
+  },
+  "mastering": {
+    "stage1": "volume=0.60,highpass=f=70,lowpass=f=13500,acompressor=threshold=0.10:ratio=1.6:attack=12:release=140:makeup=1.20,loudnorm=I=-12.5:LRA=2:TP=-1.0",
+    "stage2": "volume=1.14,alimiter=limit=0.86:level=false",
+    "finalMixLimiter": 0.9,
+    "finalMixGain": 1.0
+  }
+}
